@@ -266,7 +266,7 @@ function ServiceCard({ icon, title, desc, color }) {
 
 
 // ==========================================
-// 3. ENHANCED B2B COLLEGE PORTFOLIO (WITH IMAGES)
+// 3. ENHANCED B2B COLLEGE PORTFOLIO (SERVICES FOCUS)
 // ==========================================
 function CollegePortfolio() {
   const [formData, setFormData] = useState({ collegeName: '', contactName: '', department: 'ECE', phone: '', interest: 'Final Year Projects' });
@@ -324,7 +324,7 @@ function CollegePortfolio() {
         <div className="max-w-6xl mx-auto relative z-10 flex flex-col md:flex-row items-center gap-12">
           <div className="md:w-3/5 text-left">
             <div className="inline-flex items-center gap-2 border border-blue-500/30 bg-blue-500/10 text-blue-400 px-4 py-1.5 rounded-full text-sm mb-6 font-semibold uppercase tracking-wider">
-              <GraduationCap className="w-4 h-4" /> For Engineering Institutions & HODs
+              <GraduationCap className="w-4 h-4" /> For Engineering Institutions
             </div>
             <h2 className="text-4xl md:text-6xl font-extrabold mb-6 text-white leading-tight">
               Elevate Engineering with <br className="hidden md:block"/><span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-cyan-400">Industry Execution</span>
@@ -356,7 +356,7 @@ function CollegePortfolio() {
       </section>
 
       {/* TRUST STATS */}
-      <div className="border-b border-slate-800 bg-slate-900/50">
+      <div className="border-y border-slate-800 bg-slate-900/50">
         <div className="max-w-6xl mx-auto px-6 py-8 grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
           <div><p className="text-3xl font-bold text-white mb-1">ECE & EEE</p><p className="text-xs font-semibold text-blue-400 uppercase tracking-wider">Core Domains</p></div>
           <div><p className="text-3xl font-bold text-white mb-1">IEEE</p><p className="text-xs font-semibold text-blue-400 uppercase tracking-wider">Base Papers Executed</p></div>
@@ -365,7 +365,7 @@ function CollegePortfolio() {
         </div>
       </div>
 
-      {/* COLLEGE SERVICES */}
+      {/* COLLEGE SERVICES (REVISED) */}
       <section className="py-24 max-w-6xl mx-auto px-6">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">Our Institutional Services</h2>
@@ -392,27 +392,27 @@ function CollegePortfolio() {
         </div>
       </section>
 
-      {/* VALUE PROPOSITION LIST WITH IMAGES */}
+      {/* VALUE PROPOSITION LIST */}
       <section className="py-20 bg-slate-900 border-t border-slate-800">
         <div className="max-w-6xl mx-auto px-6 flex flex-col md:flex-row items-center gap-16">
           <div className="md:w-1/2">
             <h2 className="text-3xl md:text-4xl font-bold text-white mb-10">Why HODs & Placement Officers Trust Us</h2>
             <div className="space-y-6">
-              <div className="bg-slate-950 p-6 rounded-2xl border border-slate-800 flex items-start hover:border-slate-600 transition-colors">
+              <div className="bg-slate-950 p-6 rounded-2xl border border-slate-800 flex items-start">
                 <div className="bg-blue-900/30 p-3 rounded-xl mr-5 shrink-0"><Presentation className="w-6 h-6 text-blue-400" /></div>
                 <div>
                   <h4 className="text-xl font-bold text-white mb-2">Flawless Project Defenses (Viva-Voce)</h4>
                   <p className="text-slate-400 text-sm">We don't just hand over a finished robot. We conduct mock vivas, explain circuit diagrams, and ensure students deeply understand the code, guaranteeing high scores during externals.</p>
                 </div>
               </div>
-              <div className="bg-slate-950 p-6 rounded-2xl border border-slate-800 flex items-start hover:border-slate-600 transition-colors">
+              <div className="bg-slate-950 p-6 rounded-2xl border border-slate-800 flex items-start">
                 <div className="bg-blue-900/30 p-3 rounded-xl mr-5 shrink-0"><Award className="w-6 h-6 text-blue-400" /></div>
                 <div>
                   <h4 className="text-xl font-bold text-white mb-2">NAAC & NBA Accreditation Boost</h4>
                   <p className="text-slate-400 text-sm">Our industry-delivered workshops, expert guest lectures, and Value Added Courses (VACs) provide the necessary documentation and metrics to strengthen your accreditation files.</p>
                 </div>
               </div>
-              <div className="bg-slate-950 p-6 rounded-2xl border border-slate-800 flex items-start hover:border-slate-600 transition-colors">
+              <div className="bg-slate-950 p-6 rounded-2xl border border-slate-800 flex items-start">
                 <div className="bg-blue-900/30 p-3 rounded-xl mr-5 shrink-0"><Briefcase className="w-6 h-6 text-blue-400" /></div>
                 <div>
                   <h4 className="text-xl font-bold text-white mb-2">Core Placement Readiness</h4>
